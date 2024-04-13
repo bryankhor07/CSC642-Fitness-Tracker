@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+    background-color: rgba(240, 240, 240, 0.8);
+    text-align: center;
+    padding: auto;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 0.5rem; /* Add spacing between buttons */
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#logInBtn {
+    background-color: #4CAF50;
+}
+
+#logInBtn:hover {
+    background-color: #45a049;
+}
+
+#createAccountBtn {
+    background-color: #e0e0e0;
+}
+
+#createAccountBtn:hover {
+    background-color: #d3d3d3;
+}
+
