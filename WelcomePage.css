@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(240, 240, 240);
+    background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -33,7 +34,7 @@ body {
 
 #welcomeMsg {
     text-align: center;
-    background-color: rgb(99, 98, 98);
+    background-color: rgba(99, 98, 98, 0.8);
     width: 500px;
     margin: 60px auto;
     padding: 20px 0 20px 0;
@@ -57,7 +58,7 @@ body {
 
 .mainBtn {
     color: white;
-    background-color: rgb(99, 98, 98);
+    background-color: rgba(99, 98, 98, 0.8);
     width: 250px;
     height: 100px;
     line-height: 100px;
@@ -72,7 +73,7 @@ body {
 }
 
 .mainBtn:nth-child(3) {
-    background-color: rgb(255, 102, 0);
+    background-color: rgba(255, 102, 0, 0.8);
 }
 
 .mainBtn:hover {
