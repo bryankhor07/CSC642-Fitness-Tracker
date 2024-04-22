@@ -1,0 +1,141 @@
+body {
+    background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(192, 192, 192);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px 0 10px 0;
+}
+
+#logOutBtn {
+    float: right;
+    background-color: rgb(99, 98, 98);
+    width: 100px;
+    border-style: solid;
+    border-width: medium;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+#logOutBtn:hover {
+    background-color: rgb(149, 148, 148);
+}
+
+#welcomeMsg {
+    text-align: center;
+    background-color: rgba(99, 98, 98, 0.8);
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px 0 20px 0;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: medium;
+}
+
+#welcomeMsg p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btnContainer {
+    text-align: center;
+    width: 700px;
+    margin: 60px auto;
+}
+
+.mainBtn {
+    color: white;
+    background-color: rgba(255, 102, 0, 0.8);
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.mainBtn:hover {
+    background-color: rgb(255, 153, 51);
+}
+
+.slideContainer {
+    width: 50%;
+	margin: auto;
+	color: white;
+	line-height: 30px;
+	background-color: rgba(99, 98, 98, 0.8);
+	border-color: black;
+	border-radius: 5px;
+	border-width:.5px;
+	border-style:solid;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 92%;
+  height: 10px;
+  border-radius:
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #FF8C00;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #FF8C00;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.slideAmount {
+    color: white;
+    background-color: rgba(99, 98, 98, 0.8);
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
