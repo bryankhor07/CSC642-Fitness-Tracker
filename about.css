@@ -1,0 +1,44 @@
+body {
+    background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1.heading {
+    text-align: center;
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+button.homeRed {
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+p.aboutText {
+    background-color: seashell;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.source-code-pro-font {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
