@@ -1,22 +1,14 @@
-body {
-    display: flex;
+.formContainer {
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-form {
-    width: 60vw;
+    width: 40%;
+    margin: 80px auto;
     max-width: 500px;
     min-width: 300px;
     padding-bottom: 2em;
     background-color: rgba(240, 240, 240, 0.8);
     text-align: center;
-    padding: auto;
+    padding: 10px;
     border-radius: 50px;
     font-family: 'Roboto', sans-serif;
 }

@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="InputsPage.css">
-    <title>Miscellaneous</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Inputs.css">
+	<link rel="stylesheet" href="Header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Miscellaneous</title>
 </head>
 <body>
-    <header id="header">
-        Fitness Tracker
-    </header>
+	<header id="header">
+		<span style="position:absolute; left:0;">
+			<div class="topnav">
+				<a href="./WelcomePage.html" class="active">
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<i class="fa fa-home"></i> Home
+				</a>
+				<!-- Navigation links (hidden by default) -->
+				<div id="myNavBar">
+					<a href="./OthersPage.html">Miscellaneous Tracking</a>
+					<a href="./resources.html">Resources</a>
+					<a href="./about.html">About Us</a>
+				</div>
+				<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+				<a href="javascript:void(0);" class="icon" onclick="navBar()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</span>
+		Fitness Tracker
+		<span style="position:absolute; right: 5px; top: 20px;">
+			<div class="topnav">
+				<text class="myGreeting">&ensp;Hi Sarah!&ensp;</text>
+			</div>
+		</span>
+	</header>
     <button id="logOutBtn">Log Out</button>
     <div id="welcomeMsg">
         <p><h1 style="color:white">Miscellaneous</h1></p>
@@ -109,7 +134,15 @@
 		weightSlider.oninput = function() {
 			weightOutput.innerHTML = this.value;
 		}
-		
+
+        function navBar() {
+            var x = document.getElementById("myNavBar");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
 	</script>
     <script src="Redirect.js"></script>
 </body>
