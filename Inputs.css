@@ -1,3 +1,16 @@
+.headContainer {
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(99, 98, 98, 0.8);
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+}
+
 .slideContainer {
     width: 50%;
 	margin: auto;
