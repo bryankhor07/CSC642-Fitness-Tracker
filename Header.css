@@ -89,6 +89,7 @@ body {
     font-size: 22px;
     font-family: 'Brush Script MT', cursive;
     border: solid;
+    border-color: rgba(99, 98, 98, 0.8);
     background-color: black;
     border-radius: 5px;
 }
