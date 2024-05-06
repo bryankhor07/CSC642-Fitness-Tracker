@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Inputs.css">
+	<link rel="stylesheet" href="Header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Mind and Body</title>
+</head>
+<body>
+	<header id="header">
+		<span style="position:absolute; left:0;">
+			<div class="topnav">
+				<a href="./WelcomePage.html" class="active">
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<i class="fa fa-home"></i> Home
+				</a>
+				<div id="myNavBar">
+					<a href="./ExcerciseLogPage.html">Excercise Log</a>
+					<a href="./CardioPage.html">Cardio Tracking</a>
+					<a href="./WeightLiftingPage.html">Weight-Lifting Tracking</a>
+					<a href="./MindBodyPage.html">Mind and Body Tracking</a>
+					<a href="./OthersPage.html">Miscellaneous Tracking</a>
+					<a href="./resources.html">Resources</a>
+					<a href="./about.html">About Us</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="navBar()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</span>
+		Fitness Tracker
+		<span style="position:absolute; right: 5px; top: 18px;">
+			<div class="topnav">
+				<text class="myGreeting">&ensp;Hi Sarah!&ensp;</text>
+			</div>
+		</span>
+	</header>
+	<button id="logOutBtn">Log Out</button>
+	<div id="welcomeMsg">
+		<p><h1 style="color:white">Mind and Body</h1></p>
+	</div>
+	<h4 style="color:white; text-align: center; width: 50%; margin: auto; line-height: 40px; background-color: rgba(99, 98, 98, 0.8);
+		border-color: black; border-radius: 5px; border-width:.5px; border-style:solid;">
+		Select Date:
+		<input type="date" id="DateInput">
+	</h4>
+	<br><br>
+	<div class="headContainer">
+		Meditation
+	</div>
+	<br>
+	<div class="slideContainer">
+        <div class="slideTitle">
+			<text style="color:white;font-size: 24px; line-height: 20px;">&nbsp;Time&nbsp;</text>
+		</div>
+		<input type="range" id="mySlide1" name="mySlide1" min="0" max="600" value="0" class="slider">
+		<output id="amount1" name="amount1" for="mySlide1" class="slideAmt">
+			&nbsp;<span id="myValue1"></span>min&nbsp;
+		</output>
+        <br /><br />
+		<div class="slideTitle">
+			<text style="color:white;font-size: 24px; line-height: 20px;">&nbsp;Seconds&nbsp;</text>
+		</div>
+		<input type="range" id="mySlide2" name="mySlide2" min="0" max="60" value="0" class="slider">
+		<output id="amount2" name="amount2" for="mySlide2" class="slideAmt">
+			&nbsp;<span id="myValue2"></span>s&nbsp;
+		</output>
+	</div>
+	<br><br><br />
+	<div class="headContainer">
+		Yoga
+	</div>
+	<br />
+	<div class="slideContainer">
+        <div class="slideTitle">
+			<text style="color:white;font-size: 24px; line-height: 20px;">&nbsp;Time&nbsp;</text>
+		</div>
+		<input type="range" id="mySlide3" name="mySlide3" min="0" max="600" value="0" class="slider">
+		<output id="amount3" name="amount3" for="mySlide3" class="slideAmt">
+			&nbsp;<span id="myValue3"></span>min&nbsp;
+		</output>
+        <br /><br />
+		<div class="slideTitle">
+			<text style="color:white;font-size: 24px; line-height: 20px;">&nbsp;Seconds&nbsp;</text>
+		</div>
+		<input type="range" id="mySlide1a" name="mySlide1a" min="0" max="60" value="0" class="slider">
+		<output id="amount1a" name="amount1a" for="mySlide1a" class="slideAmt">
+			&nbsp;<span id="myValue1a"></span>s&nbsp;
+		</output>
+	</div>
+	<br>
+	<div class="btnContainer">
+		<a href="./WelcomePage.html">
+			<button class="mainBtn">Submit</button>
+		</a>
+	</div>
+	<script>
+		var mySlider1 = document.getElementById("mySlide1");
+		var myOutput1 = document.getElementById("myValue1");
+		myOutput1.innerHTML = mySlider1.value;
+
+		mySlider1.oninput = function () {
+			myOutput1.innerHTML = this.value;
+		}
+
+		var mySlider2 = document.getElementById("mySlide2");
+		var myOutput2 = document.getElementById("myValue2");
+		myOutput2.innerHTML = mySlider2.value;
+
+		mySlider2.oninput = function () {
+			myOutput2.innerHTML = this.value;
+		}
+
+        var mySlider3 = document.getElementById("mySlide3");
+        var myOutput3 = document.getElementById("myValue3");
+        myOutput3.innerHTML = mySlider3.value;
+
+        mySlider3.oninput = function () {
+            myOutput3.innerHTML = this.value;
+		}
+
+        var mySlider1a = document.getElementById("mySlide1a");
+        var myOutput1a = document.getElementById("myValue1a");
+        myOutput1a.innerHTML = mySlider1a.value;
+
+        mySlider1a.oninput = function () {
+            myOutput1a.innerHTML = this.value;
+        }
+
+/*         var mySlider2a = document.getElementById("mySlide2a");
+        var myOutput2a = document.getElementById("myValue2a");
+        myOutput2a.innerHTML = mySlider2a.value;
+
+        mySlider2a.oninput = function () {
+            myOutput2a.innerHTML = this.value;
+        }
+
+        var mySlider3a = document.getElementById("mySlide3a");
+        var myOutput3a = document.getElementById("myValue3a");
+        myOutput3a.innerHTML = mySlider3a.value;
+
+        mySlider3a.oninput = function () {
+            myOutput3a.innerHTML = this.value;
+        } */
+
+
+		function navBar() {
+			var x = document.getElementById("myNavBar");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script>
+	<script src="Redirect.js"></script>
+</body>
+</html>
