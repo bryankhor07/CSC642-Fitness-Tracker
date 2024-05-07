@@ -51,4 +51,5 @@ document.addEventListener("DOMContentLoaded", function() {
         // Redirect to the welcome page
         window.location.href = 'resources.html';
     });
+
 });

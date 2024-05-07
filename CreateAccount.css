@@ -1,11 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+}
+
 .regContainer {
     width: 50%;
-    margin: auto;
-    color: white;
-    line-height: 30px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: rgba(99, 98, 98, 0.8);
-    border-color: black;
-    border-radius: 5px;
-    border-width: .5px;
-    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#header {
+    color: #333;
+    background-color: #ccc;
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+#header a {
+    color: #333;
+    text-decoration: none;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"], input[type="date"] {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+label {
+    display: block;
+    margin: 0 0 5px 0;
+    color: white;
+}
+label1 {
+    color: rgb(255, 166, 0);
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
