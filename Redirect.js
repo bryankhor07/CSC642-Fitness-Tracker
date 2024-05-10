@@ -118,3 +118,13 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "OthersPage.html";
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    // Get reference to the button
+    var logOutButton = document.getElementById("viewlogsRed");
+
+    // Add click event listener to the button
+    logOutButton.addEventListener("click", function () {
+        // Redirect to the welcome page
+        window.location.href = "ViewLogsPage.html";
+    });
+});

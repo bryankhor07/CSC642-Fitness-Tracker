@@ -1,3 +1,11 @@
+h2 {
+    color: rgba(255, 102, 0, 0.8);
+    font-weight: bold;
+}
+.tblTitle {
+    color: rgba(255, 102, 0, 0.8);
+    font-weight: bold;
+}
 .wrapper {
     max-width: 800px;
     width: 100%;
@@ -8,7 +16,8 @@
     .wrapper i {
         height: 50px;
         width: 50px;
-        background: rgb(118, 233, 118);
+        color: white;
+        background: rgba(255, 102, 0, 0.9);
         text-align: center;
         line-height: 50px;
         border-radius: 50%;
@@ -64,7 +73,7 @@
 
 .carousel .tile {
     scroll-snap-align: start;
-    height: 340px;
+    height: 1000px;
     list-style: none;
     background: #fff;
     border-radius: 8px;

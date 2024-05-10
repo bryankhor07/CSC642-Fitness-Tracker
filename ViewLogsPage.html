@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./ViewLogs.css">
     <link rel="stylesheet" href="./Header.css">
+    <link rel="stylesheet" href="./Inputs.css">
     <script src="./Carousel.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>View Logs</title>
@@ -13,50 +14,1522 @@
 
 <body>
     <header id="header">
+        <span style="position:absolute; right: 5px; top: 0px;">
+            <div class="topnav">
+                <a href="./WelcomePage.html" class="active">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+        </span>
         Fitness Tracker
-    </header>
+        <span style="position:absolute; left: 5px; top: 30px;">
+            <div class="topnav">
+                <text class="myGreeting">&ensp;Hi Sarah!&ensp;</text>
+            </div>
+        </span>
+    </header><br />
+    <div id="welcomeMsg">
+        <p><h1 style="color:white">View Logs</h1></p>
+    </div>
     <div class="wrapper">
         <i id="left" class="fa-solid  fas fa-angle-left"></i>
         <ul class="carousel">
             <li class="tile">
-                <h2 style="color: darkorange; font-weight:bold;">Friday</h2>
-                <span>05/03/2024</span><br />
+                <p>
+                    <h2>Wednesday</h2>
+                    05/01/2024
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>400m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>2 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>5000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>60 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Saturday</h2>
-                <span>05/04/24</span>
+                <p>
+                    <h2>Thursday</h2>
+                    05/02/2024
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>4500m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>25 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1800m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>20 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>55 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Sunday</h2>
-                <span>05/05/24</span>
+                <p>
+                    <h2>Friday</h2>
+                    05/03/2024
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>3000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>20 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Monday</h2>
-                <span>05/06/24</span>
+                <p>
+                    <h2>Saturday</h2>
+                    05/04/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>5000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>75 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1800m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>20 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Tuesday</h2>
-                <span>05/07/24</span>
+                <p>
+                    <h2>Sunday</h2>
+                    05/05/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>3000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>20 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Wednesday</h2>
-                <span>05/08/24</span>
+                <p>
+                    <h2>Monday</h2>
+                    05/06/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>3000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>20 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Thursday</h2>
-                <span>05/08/24</span>
+                <p>
+                    <h2>Tuesday</h2>
+                    05/07/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1200m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>60 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Friday</h2>
-                <span>05/08/24</span>
+                <p>
+                    <h2>Wednesday</h2>
+                    05/08/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <th colspan="2">Running</th>
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>0m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>0 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>2000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Saturday</h2>
-                <span>05/08/24</span>
+                <p>
+                    <h2>Thursday</h2>
+                    05/09/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>2400m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>30 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>0m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>0 mins</td>
+                        </tr>
+
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
             <li class="tile">
-                <h2 style="color: green; font-weight:bold;">Sunday</h2>
-                <span>05/08/24</span>
+                <p>
+                    <h2>Friday</h2>
+                    05/10/24
+                </p>
+                <center>
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Cardio</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Running</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Swimming</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>1000m</td>
+                        </tr>
+                        <tr>
+                            <td>Intensity:</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>8 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Weight-Lifting</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Bicep Curls</th>
+                        </tr>
+                        <tr>
+                            <td>Weight:</td>
+                            <td>50 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate: </td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tricep Curls</th>
+
+                        </tr>
+                        <tr>
+                            <td>Distance:</td>
+                            <td>45 lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Sets:</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>10 mins</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Mind And Body</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Meditation</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>5 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>20 s</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Yoga</th>
+
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>45 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Seconds:</td>
+                            <td>0 s</td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <th colspan="2" class="tblTitle">Others</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Sleep</th>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>7 hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Steps</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1000 steps</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Calories</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>1500 kcals</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Water Intake</th>
+                        </tr>
+                        <tr>
+                            <td>Count:</td>
+                            <td>16 cups</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Weight</th>
+                        </tr>
+                        <tr>
+                            <td>Result:</td>
+                            <td>160 lbs</td>
+                        </tr>
+                    </table>
+                </center>
             </li>
         </ul>
         <i id="right" class="fa-solid fas fa-angle-right"></i>
