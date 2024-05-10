@@ -1,4 +1,4 @@
-    body {
+body {
     background-image: url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
     background-size: cover;
     margin: 0;
@@ -6,8 +6,6 @@
 }
 
 #header {
-    text-decoration: none;
-    color: black;
     width: 100%;
     text-align: center;
     background-color: rgb(192, 192, 192);
@@ -15,12 +13,7 @@
     font-weight: bold;
     font-size: 36px;
     padding: 10px 0 10px 0;
-    
 }
-#header a {
-    text-decoration: none;  
-    color: black;            
-  }
 
 #logOutBtn {
     float: right;
