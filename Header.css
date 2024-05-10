@@ -85,13 +85,14 @@ body {
     }
 
 .myGreeting {
-    color: white;
-    font-size: 22px;
+    color: black;
+    font-size: 28px;
     font-family: 'Brush Script MT', cursive;
-    border: solid;
+    /*border: solid;
     border-color: rgba(99, 98, 98, 0.8);
     background-color: black;
     border-radius: 5px;
+    */
 }
 
 .topnav {
