@@ -27,14 +27,20 @@ button.homeRed {
 }
 
 p.resourcesText {
-  background-color: seashell;
-  width: 800px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 30px;
-  font-size: 20px;
+    background-color: rgba(99, 98, 98, 0.8);
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
 }
+
+    p.resourcesText a {
+        color: white;
+    }
 
 .source-code-pro-font {
 font-family: "Source Code Pro", monospace;

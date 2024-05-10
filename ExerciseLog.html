@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="ExerciseLog.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <title>Resources</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="ExerciseLog.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Excercise Log</title>
 </head>
 <body>
-  <header id="header">
-    <a href="WelcomePage.html">Fitness Tracker</a>
-</header>
-
-<p class="resourcesText">
-<h1>Exercise Log</h1>
-
-<div class="btnContainer">
-    <button class="mainBtn" id="cardioRed">Cardio</button>
-    <button class="mainBtn" id="weightliftRed">Weight-Lifting</button>
-    <button class="mainBtn" id="mindandbodyRed" >Mind and Body</button>
-    <button class="mainBtn" id="othersRed" >Others</button>
-</div>
-
-
-<script src="Redirect.js"></script>
-
+    <header id="header">
+        <span style="position:absolute; right: 5px; top: 0px;">
+            <div class="topnav">
+                <a href="./WelcomePage.html" class="active">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+        </span>
+        Fitness Tracker
+        <span style="position:absolute; left: 5px; top: 30px;">
+            <div class="topnav">
+                <text class="myGreeting">&ensp;Hi Sarah!&ensp;</text>
+            </div>
+        </span>
+    </header>
+    <div id="welcomeMsg">
+        <br /><p>Exercise Log</p><br />
+    </div>
+    <div class="btnContainer">
+        <button class="mainBtn" id="cardioRed">Cardio</button>
+        <button class="mainBtn" id="weightliftRed">Weight-Lifting</button>
+        <button class="mainBtn" id="mindandbodyRed">Mind and Body</button>
+        <button class="mainBtn" id="othersRed">Others</button>
+        <button class="mainBtn" id="viewlogsRed">View Logs</button>
+    </div>
+    <script src="Redirect.js"></script>
 </body>
 </html>

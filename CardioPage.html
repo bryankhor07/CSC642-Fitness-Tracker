@@ -10,34 +10,20 @@
 </head>
 <body>
 	<header id="header">
-		<span style="position:absolute; left:0;">
+		<span style="position:absolute; right: 5px; top: 0px;">
 			<div class="topnav">
 				<a href="./WelcomePage.html" class="active">
-					&nbsp; &nbsp; &nbsp; &nbsp;
-					<i class="fa fa-home"></i> Home
-				</a>
-				<div id="myNavBar">
-					<a href="./ExcerciseLogPage.html">Excercise Log</a>
-					<a href="./CardioPage.html">Cardio Tracking</a>
-					<a href="./Weightlifting.html">Weight-Lifting Tracking</a>
-					<a href="./MindAndBody.html">Mind and Body Tracking</a>
-					<a href="./OthersPage.html">Miscellaneous Tracking</a>
-					<a href="./resources.html">Resources</a>
-					<a href="./about.html">About Us</a>
-				</div>
-				<a href="javascript:void(0);" class="icon" onclick="navBar()">
-					<i class="fa fa-bars"></i>
+					<i class="fa fa-home"></i>
 				</a>
 			</div>
 		</span>
 		Fitness Tracker
-		<span style="position:absolute; right: 5px; top: 18px;">
+		<span style="position:absolute; left: 5px; top: 30px;">
 			<div class="topnav">
 				<text class="myGreeting">&ensp;Hi Sarah!&ensp;</text>
 			</div>
 		</span>
 	</header>
-	<button id="logOutBtn">Log Out</button>
 	<div id="welcomeMsg">
 		<p><h1 style="color:white">Cardio</h1></p>
 	</div>
@@ -129,37 +115,37 @@
 			myOutput2.innerHTML = this.value;
 		}
 
-        var mySlider3 = document.getElementById("mySlide3");
-        var myOutput3 = document.getElementById("myValue3");
-        myOutput3.innerHTML = mySlider3.value;
+		var mySlider3 = document.getElementById("mySlide3");
+		var myOutput3 = document.getElementById("myValue3");
+		myOutput3.innerHTML = mySlider3.value;
 
-        mySlider3.oninput = function () {
-            myOutput3.innerHTML = this.value;
+		mySlider3.oninput = function () {
+			myOutput3.innerHTML = this.value;
 		}
 
-        var mySlider1a = document.getElementById("mySlide1a");
-        var myOutput1a = document.getElementById("myValue1a");
-        myOutput1a.innerHTML = mySlider1a.value;
+		var mySlider1a = document.getElementById("mySlide1a");
+		var myOutput1a = document.getElementById("myValue1a");
+		myOutput1a.innerHTML = mySlider1a.value;
 
-        mySlider1a.oninput = function () {
-            myOutput1a.innerHTML = this.value;
-        }
+		mySlider1a.oninput = function () {
+			myOutput1a.innerHTML = this.value;
+		}
 
-        var mySlider2a = document.getElementById("mySlide2a");
-        var myOutput2a = document.getElementById("myValue2a");
-        myOutput2a.innerHTML = mySlider2a.value;
+		var mySlider2a = document.getElementById("mySlide2a");
+		var myOutput2a = document.getElementById("myValue2a");
+		myOutput2a.innerHTML = mySlider2a.value;
 
-        mySlider2a.oninput = function () {
-            myOutput2a.innerHTML = this.value;
-        }
+		mySlider2a.oninput = function () {
+			myOutput2a.innerHTML = this.value;
+		}
 
-        var mySlider3a = document.getElementById("mySlide3a");
-        var myOutput3a = document.getElementById("myValue3a");
-        myOutput3a.innerHTML = mySlider3a.value;
+		var mySlider3a = document.getElementById("mySlide3a");
+		var myOutput3a = document.getElementById("myValue3a");
+		myOutput3a.innerHTML = mySlider3a.value;
 
-        mySlider3a.oninput = function () {
-            myOutput3a.innerHTML = this.value;
-        }
+		mySlider3a.oninput = function () {
+			myOutput3a.innerHTML = this.value;
+		}
 
 
 		function navBar() {
