@@ -6,29 +6,26 @@ h1.heading {
 }
 
 .material-symbols-outlined {
-font-variation-settings:
-'FILL' 0,
-'wght' 400,
-'GRAD' 0,
-'opsz' 40
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
 }
 
 p.aboutText {
-    background-color: rgba(99, 98, 98, 0.8);
-    width: 800px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 30px;
-    font-size: 20px;
-    border-style: solid;
-    border-width: medium;
-    border-color: black;
+  background-color: rgba(99, 98, 98, 0.8);
+  color: white;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
 }
 
 .source-code-pro-font {
-font-family: "Source Code Pro", monospace;
-font-optical-sizing: auto;
-font-weight: 250;
-font-style: normal;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
 }
